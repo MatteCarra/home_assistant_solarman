@@ -4,8 +4,8 @@ DOMAIN = 'solarman'
 
 DEFAULT_PORT_INVERTER = 8899
 DEFAULT_INVERTER_MB_SLAVEID = 1
-DEFAULT_LOOKUP_FILE = 'deye_hybrid.yaml'
-LOOKUP_FILES = ['sofar_g3hyd.yaml', 'custom_parameters.yaml']
+DEFAULT_LOOKUP_FILE = 'custom_parameters.yaml'
+LOOKUP_FILES = ['custom_parameters.yaml']
 
 MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=30)
 
